@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fdfcef;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+section {
+	padding-top: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 700;
+	line-height: 1.4em;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.header-title {
+	font-size: 50px;
+}
+
+.header-text {
+	font-size: 18px;
+	margin: 30px 0px;
+	width: 423px;
+	font-weight: 500;
+}
+
+.button {
+	background: #ff6861;
+	border-radius: 100px;
+	color: #ffffff;
+	padding: 22px 70px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	display: block;
+	width: 227px;
+	transition: all 0.5s ease;
+}
+
+.button:hover {
+	background: #232323;
+}
+
+.header-block-left {
+	width: 465px;
+}
+
+.header {
+	padding-top: 60px;
+}
+
+.header-block-img {
+	width: 465px;
+	height: 465px;
+	border-radius: 70px;
+	background: linear-gradient(180deg, #ffe195 0%, #ff5b5b 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-game-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 82px;
+}
+
+.header-game {
+	width: 465px;
+}
+
+.logo {
+	align-items: start;
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 29px;
+}
+
+.whats-title {
+	font-size: 30px;
+	margin-bottom: 11px;
+}
+
+.whats-text {
+	font-size: 18px;
+}
+
+.whats-items {
+	width: 720px;
+	margin: 0 auto;
+}
+
+.whats-item {
+	margin-top: 41px;
+	display: flex;
+	height: 78px;
+}
+
+.whats-wrapper {
+	padding-left: 34px;
+}
+
+.more-wrapper {
+	border-radius: 60px;
+	background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+	display: flex;
+	justify-content: space-between;
+	mb
+}
+
+.more-content {
+	width: 475px;
+	margin-left: 122px;
+	margin-top: 76px;
+	margin-bottom: 75px;
+}
+
+.more-title {
+	text-align: left;
+}
+
+.more-text {
+	margin: 24px 0;
+	width: 371px;
+}
+
+.more-img {
+	width: 287px;
+	height: 287px;
+	margin-top: 76px;
+	margin-right: 125px;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
