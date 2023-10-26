@@ -132,7 +132,6 @@ h2 {
 	background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
 	display: flex;
 	justify-content: space-between;
-	mb
 }
 
 .more-content {
@@ -159,7 +158,7 @@ h2 {
 }
 
 .footer {
-    padding: 120px 0;
-    text-align: center;
-    font-size: 15px;
+	padding: 120px 0;
+	text-align: center;
+	font-size: 15px;
 }
