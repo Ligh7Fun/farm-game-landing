@@ -96,7 +96,19 @@ h2 {
 	font-size: 40px;
 	text-align: center;
 	font-weight: 700;
-	margin-bottom: 29px;
+}
+
+.whats-items {
+	display: flex;
+	flex-direction: column;
+	gap: 41px;
+	width: 720px;
+	margin: 70px auto 0 auto;
+}
+
+.whats-item {
+	display: flex;
+	align-items: center;
 }
 
 .whats-title {
@@ -108,19 +120,18 @@ h2 {
 	font-weight: 500;
 }
 
-.whats-items {
-	width: 720px;
-	margin: 0 auto;
-}
-
-.whats-item {
-	margin-top: 41px;
+.whats-img {
+	width: 73px;
+	height: 73px;
 	display: flex;
-	height: 78px;
+	justify-content: center;
+	align-items: center;
+	margin-right: 34px;
+	transition: all 0.8s ease;
 }
 
-.whats-wrapper {
-	padding-left: 34px;
+.whats-item:hover .whats-img {
+	transform: scale(1.2);
 }
 
 .more-wrapper {
